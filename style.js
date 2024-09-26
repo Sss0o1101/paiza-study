@@ -13,3 +13,4 @@ reader.on('line', (line) => {
 reader.on('close', () => {
   console.log(lines[0]);
 });
+
